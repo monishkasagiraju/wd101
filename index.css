@@ -1,0 +1,78 @@
+body {
+    background-color: #f8f8f8;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.parts {
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.block {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.float {
+    margin-top: 10px;
+}
+
+.checkbox-label {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.submit {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #45a049;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.bor {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Responsive design for small screens */
+@media screen and (max-width: 600px) {
+    .block {
+        width: 100%;
+    }
+}
